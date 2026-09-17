@@ -1,0 +1,7 @@
+{
+  "name": "Markets Overview",
+  "description": "Financial market overview featuring live quotes for indices, highest volume stocks, crypto, commodities, forex, and treasury yield curves.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

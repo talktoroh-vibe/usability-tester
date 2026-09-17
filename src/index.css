@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tv-black: #131722;
+  --color-tv-grayHover: #f0f3fa;
+  --color-tv-grayBorder: #e0e3eb;
+  --color-tv-grayBg: #f8f9fd;
+  --color-tv-blue: #2962ff;
+  --color-tv-blueHover: #1e53e5;
+  --color-tv-green: #089981;
+  --color-tv-red: #f23645;
+  --color-tv-muted: #787b86;
+  --color-tv-lightChip: #f0f3fa;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+  color: #131722;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #d1d4dc;
+  border-radius: 4px;
+}
+
+.btn-gradient {
+  background: linear-gradient(135deg, #2962ff 0%, #8c2bff 100%);
+}
+.btn-gradient:hover {
+  opacity: 0.93;
+}
+
